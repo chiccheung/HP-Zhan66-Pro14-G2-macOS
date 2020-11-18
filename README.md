@@ -7,11 +7,11 @@
 | 规格      | 详细信息 |
 | -------- | ------- |
 | 电脑型号 | HP-Zhan66-Pro14-G2 |
-| 处理器   | Intel i5-8265U |
+| 处理器   | Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz |
+| 核心显卡  | Intel UHD Graphics 620 |
+| 独立显卡  | nVIDIA GeForce MX250 |
 | 内存     | Kingston 8GB DDR4 2400MHz |
 | 硬盘     | SK hynix 512GB NVMExpress |
-| 集成显卡  | Intel UHD Graphics 620 |
-| 独立显卡  | Nvidia MX250 |
 | 显示器    | 内建显示器 13.9 - 英寸 |
 | 声卡     | Realtek ALC236 |
 | 网卡     | Intel AC9560 |
@@ -19,7 +19,7 @@
 ## 失效硬件
 
 - ~~SD Card Reader~~ （已屏蔽）
-- ~~Nvidia MX250~~ （已屏蔽）
+- ~~nVIDIA GeForce MX250~~ （已屏蔽）
 - ~~Fingerprint sensor~~ （已屏蔽）
 
 ## 资料
