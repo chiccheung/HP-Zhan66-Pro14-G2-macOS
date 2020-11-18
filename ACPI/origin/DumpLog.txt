@@ -1,126 +1,126 @@
-25:817  2:397  Found UEFI Acpi 2.0 RSDP at %p
-25:817  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’ä »å…ä•Éíƒ„è®»$ ...
-25:817  0:000   %p: 'RSD PTR ;HPQOEMÄÐ»‹$', Rev: 1985265335 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
-25:857  0:040    (Xsdt: %p, Rsdt: %p)
-25:857  0:000    %p: 'XSDT', 'XSDT', Rev: 1985265127, Len: 1 -> XSDT.aml
-25:880  0:022    %p: 'RSDT ', 'RSDT', Rev: 1985265127, Len: 1 -> RSDT.aml
-25:901  0:020    Tables in Xsdt: 31
-25:901  0:000    0. %p: 'FACP', 'FACP', Rev: 1985265127, Len: 6 -> FACP.aml
-25:922  0:021        (Dsdt: 8BBCA000, Facs: 8BACE000, XDsdt: 8bbca000, XFacs: 0)
-25:922  0:000        %p: 'DSDTh', 'DSDT', Rev: 1985264967, Len: 2 -> DSDT.aml
-25:953  0:031        %p: 'FACS@', Ver: 1985265163, Len: 2 -> FACS.aml
-25:976  0:022    1. %p: 'SSDT*', 'SSDT', Rev: 1985265127, Len: 2 -> SSDT-0-ShmTable.aml
-26:000  0:024    2. %p: 'SSDT_', 'SSDT', Rev: 1985265127, Len: 2 -> SSDT-1-CpuSsdt.aml (Found hidden SSDT 9 pcs)
-26:021  0:021        * 2341581208: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1277  53 53 44 54 FD 04 00 00 02 D8 50 6D 52 65 66 00 Internal length = 1277 -> SSDT-x1_0-Cpu0Ist.aml
-26:048  0:027        * 2341175320: 'SSDT', 'ApIst', Rev: 2, Len: 1532  53 53 44 54 FC 05 00 00 02 23 50 6D 52 65 66 00 Internal length = 1532 -> SSDT-x1_1-ApIst.aml
-26:071  0:022        * 2341176984: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x1_2-Cpu0Cst.aml
-26:092  0:021        * 2341182104: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x1_3-ApCst.aml
-26:112  0:019        * 2341583256: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 329  53 53 44 54 49 01 00 00 02 51 50 6D 52 65 66 00 Internal length = 329 -> SSDT-x1_4-Cpu0Hwp.aml
-26:134  0:021        * 2341583896: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x1_5-ApHwp.aml
-26:160  0:026        * 2341179416: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x1_6-HwpLvt.aml
-26:182  0:022        * 2341582872: 'SSDT', 'Cpu0Psd', Rev: 2, Len: 244  53 53 44 54 F4 00 00 00 02 37 50 6D 52 65 66 00 Internal length = 244 -> SSDT-x1_7-Cpu0Psd.aml
-26:204  0:021        * 2341171224: 'SSDT', 'ApPsd', Rev: 2, Len: 2736  53 53 44 54 B0 0A 00 00 02 AB 50 6D 52 65 66 00 Internal length = 2736 -> SSDT-x1_8-ApPsd.aml
-26:232  0:028  
-26:232  0:000    3. %p: 'SSDTÏ	', 'SSDT', Rev: 1985265127, Len: 2 -> SSDT-2-CtdpB.aml
-26:256  0:023    4. %p: 'SSDT‚Î', 'SSDT', Rev: 1985265127, Len: 2 -> SSDT-3-PLT_RTD3.aml
-26:280  0:024    5. %p: 'RTMAž', 'RTMA', Rev: 1985265127, Len: 1 -> RTMA.aml
-26:304  0:024    6. %p: 'SSDTu', 'SSDT', Rev: 1985265127, Len: 2 -> SSDT-4-UcsiAcpi.aml
-26:334  0:029    7. %p: 'SSDTû', 'SSDT', Rev: 1985265127, Len: 2 -> SSDT-5-UcsiCntr.aml
-26:357  0:023    8. %p: 'MSDMU', 'MSDM', Rev: 1985265127, Len: 3 -> MSDM.aml
-26:378  0:021    9. %p: 'WSMT(', 'WSMT', Rev: 1985265127, Len: 1 -> WSMT.aml
-26:401  0:022    10. %p: 'HPET8', 'HPET', Rev: 1985265127, Len: 1 -> HPET.aml
-26:426  0:025    11. %p: 'APIC,', 'APIC', Rev: 1985265127, Len: 3 -> APIC.aml
-26:453  0:026    12. %p: 'MCFG<', 'MCFG', Rev: 1985265127, Len: 1 -> MCFG.aml
-26:477  0:024    13. %p: 'SSDTF', 'SSDT', Rev: 1985265127, Len: 2 -> SSDT-6-PtidDevc.aml
-26:499  0:022    14. %p: 'SSDTà', 'SSDT', Rev: 1985265127, Len: 2 -> SSDT-7-HP_XHC_P.aml
-26:524  0:024    15. %p: 'SSDT¥<', 'SSDT', Rev: 1985265127, Len: 2 -> SSDT-8-DptfTabl.aml
-26:555  0:030    16. %p: 'SSDT%1', 'SSDT', Rev: 1985265127, Len: 2 -> SSDT-9-SaSsdt.aml
-26:580  0:024    17. %p: 'LPIT”', 'LPIT', Rev: 1985265127, Len: 1 -> LPIT.aml
-26:603  0:023    18. %p: 'WSMT(', 'WSMT', Rev: 1985265127, Len: 1 -> WSMT.aml
-26:648  0:045    19. %p: 'UEFIB', 'UEFI', Rev: 1985265127, Len: 1 -> UEFI.aml
-26:669  0:021    20. %p: 'OEML(', 'OEML', Rev: 1985265127, Len: 3 -> OEML.aml
-26:690  0:020    21. %p: 'DMAR¨', 'DMAR', Rev: 1985265127, Len: 1 -> DMAR.aml
-26:712  0:022    22. %p: 'NHLT-', 'NHLT', Rev: 1985265127, Len: 0 -> NHLT.aml
-26:736  0:023    23. %p: 'SSDT', 'SSDT', Rev: 1985265127, Len: 1 -> SSDT-10-NVPOWERC.aml
-26:760  0:023    24. %p: 'SSDT,', 'SSDT', Rev: 1985265127, Len: 1 -> SSDT-11-HPINNBWL.aml
-26:787  0:027    25. %p: 'SSDT2', 'SSDT', Rev: 1985265127, Len: 1 -> SSDT-12-HPCONDEV.aml
-26:810  0:022    26. %p: 'SSDTÉ0', 'SSDT', Rev: 1985265127, Len: 1 -> SSDT-13-NVSGPCH.aml
-26:834  0:024    27. %p: 'SSDTR', 'SSDT', Rev: 1985265127, Len: 1 -> SSDT-14-HPCAHWID.aml
-26:856  0:021    28. %p: 'FPDTD', 'FPDT', Rev: 1985265127, Len: 1 -> FPDT.aml
-26:877  0:020    29. %p: 'BGRT8', 'BGRT', Rev: 1985265127, Len: 1 -> BGRT.aml
-26:900  0:022    30. %p: 'SSDTù', 'SSDT', Rev: 1985265127, Len: 2 -> SSDT-15-PwrCtlEv.aml
-26:926  0:026    Tables in Rsdt: 31
-26:926  0:000    0. %p: 'FACP', 'FACP', Rev: 1985265127, Len: 6
-26:926  0:000        (Dsdt: 8BBCA000, Facs: 8BACE000, XDsdt: 8bbca000, XFacs: 0)
-26:926  0:000        %p: 'DSDTh', 'DSDT', Rev: 1985264967, Len: 2
-26:931  0:004        %p: 'FACS@', Ver: 1985265163, Len: 2
-26:931  0:000    1. %p: 'SSDT*', 'SSDT', Rev: 1985265127, Len: 2
-26:931  0:000    2. %p: 'SSDT_', 'SSDT', Rev: 1985265127, Len: 2
-26:931  0:000    3. %p: 'SSDTÏ	', 'SSDT', Rev: 1985265127, Len: 2
-26:931  0:000    4. %p: 'SSDT‚Î', 'SSDT', Rev: 1985265127, Len: 2
-26:931  0:000    5. %p: 'RTMAž', 'RTMA', Rev: 1985265127, Len: 1
-26:931  0:000    6. %p: 'SSDTu', 'SSDT', Rev: 1985265127, Len: 2
-26:931  0:000    7. %p: 'SSDTû', 'SSDT', Rev: 1985265127, Len: 2
-26:931  0:000    8. %p: 'MSDMU', 'MSDM', Rev: 1985265127, Len: 3
-26:931  0:000    9. %p: 'WSMT(', 'WSMT', Rev: 1985265127, Len: 1
-26:931  0:000    10. %p: 'HPET8', 'HPET', Rev: 1985265127, Len: 1
-26:931  0:000    11. %p: 'APIC,', 'APIC', Rev: 1985265127, Len: 3
-26:931  0:000    12. %p: 'MCFG<', 'MCFG', Rev: 1985265127, Len: 1
-26:931  0:000    13. %p: 'SSDTF', 'SSDT', Rev: 1985265127, Len: 2
-26:931  0:000    14. %p: 'SSDTà', 'SSDT', Rev: 1985265127, Len: 2
-26:931  0:000    15. %p: 'SSDT¥<', 'SSDT', Rev: 1985265127, Len: 2
-26:931  0:000    16. %p: 'SSDT%1', 'SSDT', Rev: 1985265127, Len: 2
-26:931  0:000    17. %p: 'LPIT”', 'LPIT', Rev: 1985265127, Len: 1
-26:931  0:000    18. %p: 'WSMT(', 'WSMT', Rev: 1985265127, Len: 1
-26:931  0:000    19. %p: 'UEFIB', 'UEFI', Rev: 1985265127, Len: 1
-26:931  0:000    20. %p: 'OEML(', 'OEML', Rev: 1985265127, Len: 3
-26:931  0:000    21. %p: 'DMAR¨', 'DMAR', Rev: 1985265127, Len: 1
-26:931  0:000    22. %p: 'NHLT-', 'NHLT', Rev: 1985265127, Len: 0
-26:931  0:000    23. %p: 'SSDT', 'SSDT', Rev: 1985265127, Len: 1
-26:931  0:000    24. %p: 'SSDT,', 'SSDT', Rev: 1985265127, Len: 1
-26:931  0:000    25. %p: 'SSDT2', 'SSDT', Rev: 1985265127, Len: 1
-26:931  0:000    26. %p: 'SSDTÉ0', 'SSDT', Rev: 1985265127, Len: 1
-26:931  0:000    27. %p: 'SSDTR', 'SSDT', Rev: 1985265127, Len: 1
-26:931  0:000    28. %p: 'FPDTD', 'FPDT', Rev: 1985265127, Len: 1
-26:931  0:000    29. %p: 'BGRT8', 'BGRT', Rev: 1985265127, Len: 1
-26:931  0:000    30. %p: 'SSDTù', 'SSDT', Rev: 1985265127, Len: 2
-26:931  0:000  Found UEFI Acpi 1.0 RSDP at %p
-26:931  0:000  Printing ACPI tables from RSDP %p ...
-26:931  0:000   %p: 'RSD PTR HPQOEM', Rev: 1985265335 (Acpi 1.0), Len: 20
-26:931  0:000    (Rsdt: %p)
-26:931  0:000    %p: 'RSDT ', 'RSDT', Rev: 1985265127, Len: 1
-26:931  0:000    Tables in Rsdt: 31
-26:931  0:000    0. %p: 'FACP', 'FACP', Rev: 1985265127, Len: 6
-26:931  0:000        (Dsdt: 8BBCA000, Facs: 8BACE000, XDsdt: 8bbca000, XFacs: 0)
-26:931  0:000        %p: 'DSDTh', 'DSDT', Rev: 1985264967, Len: 2
-26:936  0:004        %p: 'FACS@', Ver: 1985265163, Len: 2
-26:936  0:000    1. %p: 'SSDT*', 'SSDT', Rev: 1985265127, Len: 2
-26:936  0:000    2. %p: 'SSDT_', 'SSDT', Rev: 1985265127, Len: 2
-26:936  0:000    3. %p: 'SSDTÏ	', 'SSDT', Rev: 1985265127, Len: 2
-26:936  0:000    4. %p: 'SSDT‚Î', 'SSDT', Rev: 1985265127, Len: 2
-26:936  0:000    5. %p: 'RTMAž', 'RTMA', Rev: 1985265127, Len: 1
-26:936  0:000    6. %p: 'SSDTu', 'SSDT', Rev: 1985265127, Len: 2
-26:936  0:000    7. %p: 'SSDTû', 'SSDT', Rev: 1985265127, Len: 2
-26:936  0:000    8. %p: 'MSDMU', 'MSDM', Rev: 1985265127, Len: 3
-26:936  0:000    9. %p: 'WSMT(', 'WSMT', Rev: 1985265127, Len: 1
-26:936  0:000    10. %p: 'HPET8', 'HPET', Rev: 1985265127, Len: 1
-26:936  0:000    11. %p: 'APIC,', 'APIC', Rev: 1985265127, Len: 3
-26:936  0:000    12. %p: 'MCFG<', 'MCFG', Rev: 1985265127, Len: 1
-26:936  0:000    13. %p: 'SSDTF', 'SSDT', Rev: 1985265127, Len: 2
-26:936  0:000    14. %p: 'SSDTà', 'SSDT', Rev: 1985265127, Len: 2
-26:936  0:000    15. %p: 'SSDT¥<', 'SSDT', Rev: 1985265127, Len: 2
-26:936  0:000    16. %p: 'SSDT%1', 'SSDT', Rev: 1985265127, Len: 2
-26:936  0:000    17. %p: 'LPIT”', 'LPIT', Rev: 1985265127, Len: 1
-26:936  0:000    18. %p: 'WSMT(', 'WSMT', Rev: 1985265127, Len: 1
-26:936  0:000    19. %p: 'UEFIB', 'UEFI', Rev: 1985265127, Len: 1
-26:936  0:000    20. %p: 'OEML(', 'OEML', Rev: 1985265127, Len: 3
-26:936  0:000    21. %p: 'DMAR¨', 'DMAR', Rev: 1985265127, Len: 1
-26:936  0:000    22. %p: 'NHLT-', 'NHLT', Rev: 1985265127, Len: 0
-26:936  0:000    23. %p: 'SSDT', 'SSDT', Rev: 1985265127, Len: 1
-26:936  0:000    24. %p: 'SSDT,', 'SSDT', Rev: 1985265127, Len: 1
-26:936  0:000    25. %p: 'SSDT2', 'SSDT', Rev: 1985265127, Len: 1
-26:936  0:000    26. %p: 'SSDTÉ0', 'SSDT', Rev: 1985265127, Len: 1
-26:936  0:000    27. %p: 'SSDTR', 'SSDT', Rev: 1985265127, Len: 1
-26:936  0:000    28. %p: 'FPDTD', 'FPDT', Rev: 1985265127, Len: 1
-26:936  0:000    29. %p: 'BGRT8', 'BGRT', Rev: 1985265127, Len: 1
-26:936  0:000    30. %p: 'SSDTù', 'SSDT', Rev: 1985265127, Len: 2
+14:126  1:164  Found UEFI Acpi 2.0 RSDP at 8bc0e014
+14:126  0:000  Saving ACPI tables from RSDP 8bc0e014 to ACPI\origin ...
+14:126  0:000   8bc0e014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+14:155  0:028    (Xsdt: 8bbbd188, Rsdt: 8bbbd0c4)
+14:155  0:000    8bbbd188: 'XSDT', 'SLIC-BPC', Rev: 1, Len: 284 -> XSDT.aml
+14:179  0:023    8bbbd0c4: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 160 -> RSDT.aml
+14:216  0:036    Tables in Xsdt: 31
+14:216  0:000    0. 8bbf4000: 'FACP', 'SLIC-BPC', Rev: 6, Len: 276 -> FACP.aml
+14:241  0:025        (Dsdt: 8BBCA000, Facs: 8BACE000, XDsdt: 8bbca000, XFacs: 0)
+14:241  0:000        8bbca000: 'DSDT', '85A5', Rev: 2, Len: 158322 -> DSDT.aml
+14:277  0:036        8bace000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+14:301  0:024    1. 8bc0c000: 'SSDT', 'ShmTable', Rev: 2, Len: 298 -> SSDT-0-ShmTable.aml
+14:326  0:024    2. 8bc0a000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007 -> SSDT-1-CpuSsdt.aml (Found hidden SSDT 9 pcs)
+14:352  0:026        * 2341581208: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1277  53 53 44 54 FD 04 00 00 02 D8 50 6D 52 65 66 00 Internal length = 1277 -> SSDT-x1_0-Cpu0Ist.aml
+14:379  0:026        * 2341175320: 'SSDT', 'ApIst', Rev: 2, Len: 1532  53 53 44 54 FC 05 00 00 02 23 50 6D 52 65 66 00 Internal length = 1532 -> SSDT-x1_1-ApIst.aml
+14:406  0:027        * 2341176984: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x1_2-Cpu0Cst.aml
+14:430  0:023        * 2341182104: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x1_3-ApCst.aml
+14:457  0:026        * 2341583256: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 329  53 53 44 54 49 01 00 00 02 51 50 6D 52 65 66 00 Internal length = 329 -> SSDT-x1_4-Cpu0Hwp.aml
+14:482  0:025        * 2341583896: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x1_5-ApHwp.aml
+15:235  0:752        * 2341179416: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x1_6-HwpLvt.aml
+15:259  0:023        * 2341582872: 'SSDT', 'Cpu0Psd', Rev: 2, Len: 244  53 53 44 54 F4 00 00 00 02 37 50 6D 52 65 66 00 Internal length = 244 -> SSDT-x1_7-Cpu0Psd.aml
+15:286  0:026        * 2341171224: 'SSDT', 'ApPsd', Rev: 2, Len: 2736  53 53 44 54 B0 0A 00 00 02 AB 50 6D 52 65 66 00 Internal length = 2736 -> SSDT-x1_8-ApPsd.aml
+15:315  0:029  
+15:315  0:000    3. 8bc09000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511 -> SSDT-2-CtdpB.aml
+15:339  0:024    4. 8bbfc000: 'SSDT', 'PLT_RTD3', Rev: 2, Len: 52866 -> SSDT-3-PLT_RTD3.aml
+15:367  0:028    5. 8bbfb000: 'RTMA', '_HBMART_', Rev: 1, Len: 158 -> RTMA.aml
+15:396  0:029    6. 8bbf8000: 'SSDT', 'UcsiAcpi', Rev: 2, Len: 5493 -> SSDT-4-UcsiAcpi.aml
+15:427  0:030    7. 8bbf7000: 'SSDT', 'UcsiCntr', Rev: 2, Len: 251 -> SSDT-5-UcsiCntr.aml
+15:451  0:024    8. 8bbf6000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85 -> MSDM.aml
+15:475  0:023    9. 8bbf5000: 'WSMT', '85A5', Rev: 1, Len: 40 -> WSMT.aml
+15:500  0:024    10. 8bbf3000: 'HPET', '85A5', Rev: 1, Len: 56 -> HPET.aml
+15:526  0:026    11. 8bbf2000: 'APIC', '85A5', Rev: 3, Len: 300 -> APIC.aml
+15:551  0:024    12. 8bbf1000: 'MCFG', '85A5', Rev: 1, Len: 60 -> MCFG.aml
+15:574  0:023    13. 8bbc9000: 'SSDT', 'PtidDevc', Rev: 2, Len: 1862 -> SSDT-6-PtidDevc.aml
+15:600  0:025    14. 8bbc8000: 'SSDT', 'HP_XHC_P', Rev: 2, Len: 2016 -> SSDT-7-HP_XHC_P.aml
+15:627  0:027    15. 8bbc4000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15525 -> SSDT-8-DptfTabl.aml
+15:655  0:028    16. 8bbc0000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12581 -> SSDT-9-SaSsdt.aml
+15:681  0:025    17. 8bbbf000: 'LPIT', 'CFL-ULT', Rev: 1, Len: 148 -> LPIT.aml
+15:706  0:025    18. 8bbbe000: 'WSMT', 'CFL-ULT', Rev: 1, Len: 40 -> WSMT.aml
+15:748  0:041    19. 8bac9000: 'UEFI', 'CFL-ULT', Rev: 1, Len: 66 -> UEFI.aml
+15:772  0:024    20. 8bc0d000: 'OEML', 'CFL-ULT', Rev: 3, Len: 40 -> OEML.aml
+15:798  0:025    21. 8bbbc000: 'DMAR', 'WHL', Rev: 1, Len: 168 -> DMAR.aml
+15:824  0:026    22. 8bbbb000: 'NHLT', 'WHL', Rev: 0, Len: 45 -> NHLT.aml
+15:853  0:028    23. 8bbba000: 'SSDT', 'NVPOWERC', Rev: 1, Len: 775 -> SSDT-10-NVPOWERC.aml
+15:877  0:024    24. 8bbb8000: 'SSDT', 'HPINNBWL', Rev: 1, Len: 7468 -> SSDT-11-HPINNBWL.aml
+15:902  0:024    25. 8bbb7000: 'SSDT', 'HPCONDEV', Rev: 1, Len: 50 -> SSDT-12-HPCONDEV.aml
+15:928  0:025    26. 8bbb3000: 'SSDT', 'NVSGPCH', Rev: 1, Len: 12489 -> SSDT-13-NVSGPCH.aml
+15:951  0:023    27. 8bbb2000: 'SSDT', 'HPCAHWID', Rev: 1, Len: 82 -> SSDT-14-HPCAHWID.aml
+15:978  0:026    28. 8bbb1000: 'FPDT', 'CFL-ULT', Rev: 1, Len: 68 -> FPDT.aml
+16:008  0:029    29. 8bbb0000: 'BGRT', 'CFL-ULT', Rev: 1, Len: 56 -> BGRT.aml
+16:033  0:025    30. 8bbfa000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 761 -> SSDT-15-PwrCtlEv.aml
+16:057  0:024    Tables in Rsdt: 31
+16:057  0:000    0. 8bbf4000: 'FACP', 'SLIC-BPC', Rev: 6, Len: 276
+16:057  0:000        (Dsdt: 8BBCA000, Facs: 8BACE000, XDsdt: 8bbca000, XFacs: 0)
+16:057  0:000        8bbca000: 'DSDT', '85A5', Rev: 2, Len: 158322
+16:061  0:004        8bace000: 'FACS', Ver: 2, Len: 64
+16:061  0:000    1. 8bc0c000: 'SSDT', 'ShmTable', Rev: 2, Len: 298
+16:061  0:000    2. 8bc0a000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+16:061  0:000    3. 8bc09000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511
+16:061  0:000    4. 8bbfc000: 'SSDT', 'PLT_RTD3', Rev: 2, Len: 52866
+16:061  0:000    5. 8bbfb000: 'RTMA', '_HBMART_', Rev: 1, Len: 158
+16:061  0:000    6. 8bbf8000: 'SSDT', 'UcsiAcpi', Rev: 2, Len: 5493
+16:061  0:000    7. 8bbf7000: 'SSDT', 'UcsiCntr', Rev: 2, Len: 251
+16:061  0:000    8. 8bbf6000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+16:061  0:000    9. 8bbf5000: 'WSMT', '85A5', Rev: 1, Len: 40
+16:061  0:000    10. 8bbf3000: 'HPET', '85A5', Rev: 1, Len: 56
+16:061  0:000    11. 8bbf2000: 'APIC', '85A5', Rev: 3, Len: 300
+16:061  0:000    12. 8bbf1000: 'MCFG', '85A5', Rev: 1, Len: 60
+16:061  0:000    13. 8bbc9000: 'SSDT', 'PtidDevc', Rev: 2, Len: 1862
+16:061  0:000    14. 8bbc8000: 'SSDT', 'HP_XHC_P', Rev: 2, Len: 2016
+16:061  0:000    15. 8bbc4000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15525
+16:061  0:000    16. 8bbc0000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12581
+16:061  0:000    17. 8bbbf000: 'LPIT', 'CFL-ULT', Rev: 1, Len: 148
+16:061  0:000    18. 8bbbe000: 'WSMT', 'CFL-ULT', Rev: 1, Len: 40
+16:061  0:000    19. 8bac9000: 'UEFI', 'CFL-ULT', Rev: 1, Len: 66
+16:061  0:000    20. 8bc0d000: 'OEML', 'CFL-ULT', Rev: 3, Len: 40
+16:061  0:000    21. 8bbbc000: 'DMAR', 'WHL', Rev: 1, Len: 168
+16:061  0:000    22. 8bbbb000: 'NHLT', 'WHL', Rev: 0, Len: 45
+16:061  0:000    23. 8bbba000: 'SSDT', 'NVPOWERC', Rev: 1, Len: 775
+16:061  0:000    24. 8bbb8000: 'SSDT', 'HPINNBWL', Rev: 1, Len: 7468
+16:061  0:000    25. 8bbb7000: 'SSDT', 'HPCONDEV', Rev: 1, Len: 50
+16:061  0:000    26. 8bbb3000: 'SSDT', 'NVSGPCH', Rev: 1, Len: 12489
+16:061  0:000    27. 8bbb2000: 'SSDT', 'HPCAHWID', Rev: 1, Len: 82
+16:061  0:000    28. 8bbb1000: 'FPDT', 'CFL-ULT', Rev: 1, Len: 68
+16:061  0:000    29. 8bbb0000: 'BGRT', 'CFL-ULT', Rev: 1, Len: 56
+16:061  0:000    30. 8bbfa000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 761
+16:061  0:000  Found UEFI Acpi 1.0 RSDP at 8bc0e000
+16:061  0:000  Printing ACPI tables from RSDP 8bc0e000 ...
+16:061  0:000   8bc0e000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+16:061  0:000    (Rsdt: 8bbbd000)
+16:061  0:000    8bbbd000: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 160
+16:061  0:000    Tables in Rsdt: 31
+16:061  0:000    0. 8bbf4000: 'FACP', 'SLIC-BPC', Rev: 6, Len: 276
+16:061  0:000        (Dsdt: 8BBCA000, Facs: 8BACE000, XDsdt: 8bbca000, XFacs: 0)
+16:061  0:000        8bbca000: 'DSDT', '85A5', Rev: 2, Len: 158322
+16:066  0:004        8bace000: 'FACS', Ver: 2, Len: 64
+16:066  0:000    1. 8bc0c000: 'SSDT', 'ShmTable', Rev: 2, Len: 298
+16:066  0:000    2. 8bc0a000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+16:066  0:000    3. 8bc09000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511
+16:066  0:000    4. 8bbfc000: 'SSDT', 'PLT_RTD3', Rev: 2, Len: 52866
+16:066  0:000    5. 8bbfb000: 'RTMA', '_HBMART_', Rev: 1, Len: 158
+16:066  0:000    6. 8bbf8000: 'SSDT', 'UcsiAcpi', Rev: 2, Len: 5493
+16:066  0:000    7. 8bbf7000: 'SSDT', 'UcsiCntr', Rev: 2, Len: 251
+16:066  0:000    8. 8bbf6000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+16:066  0:000    9. 8bbf5000: 'WSMT', '85A5', Rev: 1, Len: 40
+16:066  0:000    10. 8bbf3000: 'HPET', '85A5', Rev: 1, Len: 56
+16:066  0:000    11. 8bbf2000: 'APIC', '85A5', Rev: 3, Len: 300
+16:066  0:000    12. 8bbf1000: 'MCFG', '85A5', Rev: 1, Len: 60
+16:066  0:000    13. 8bbc9000: 'SSDT', 'PtidDevc', Rev: 2, Len: 1862
+16:066  0:000    14. 8bbc8000: 'SSDT', 'HP_XHC_P', Rev: 2, Len: 2016
+16:066  0:000    15. 8bbc4000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15525
+16:066  0:000    16. 8bbc0000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12581
+16:066  0:000    17. 8bbbf000: 'LPIT', 'CFL-ULT', Rev: 1, Len: 148
+16:066  0:000    18. 8bbbe000: 'WSMT', 'CFL-ULT', Rev: 1, Len: 40
+16:066  0:000    19. 8bac9000: 'UEFI', 'CFL-ULT', Rev: 1, Len: 66
+16:066  0:000    20. 8bc0d000: 'OEML', 'CFL-ULT', Rev: 3, Len: 40
+16:066  0:000    21. 8bbbc000: 'DMAR', 'WHL', Rev: 1, Len: 168
+16:066  0:000    22. 8bbbb000: 'NHLT', 'WHL', Rev: 0, Len: 45
+16:066  0:000    23. 8bbba000: 'SSDT', 'NVPOWERC', Rev: 1, Len: 775
+16:066  0:000    24. 8bbb8000: 'SSDT', 'HPINNBWL', Rev: 1, Len: 7468
+16:066  0:000    25. 8bbb7000: 'SSDT', 'HPCONDEV', Rev: 1, Len: 50
+16:066  0:000    26. 8bbb3000: 'SSDT', 'NVSGPCH', Rev: 1, Len: 12489
+16:066  0:000    27. 8bbb2000: 'SSDT', 'HPCAHWID', Rev: 1, Len: 82
+16:066  0:000    28. 8bbb1000: 'FPDT', 'CFL-ULT', Rev: 1, Len: 68
+16:066  0:000    29. 8bbb0000: 'BGRT', 'CFL-ULT', Rev: 1, Len: 56
+16:066  0:000    30. 8bbfa000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 761
