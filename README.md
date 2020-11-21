@@ -43,12 +43,12 @@
    - [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
    - [One-Key-UnlockTDP](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/unlockTDP)
    - [HIDPI](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)
-   - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/ALCPlugFix)
+   - [ALCPlugFix-Swift](https://github.com/black-dragon74/ALCPlugFix-Swift)
    - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
    - [corpnewt/ProperTree](https://github.com/corpnewt/ProperTree)
    - [acidanthera/MaciASL](https://github.com/acidanthera/MaciASL)
    - [Hex Fiend](http://ridiculousfish.com/hexfiend/)
-   - [IORegistryExplorer](https://github.com/vulgo/IORegistryExplorer)
+   - [IORegistryExplorer](https://github.com/Jasonsupreme/IORegistryExplorer)
 
 ## Credits
 
