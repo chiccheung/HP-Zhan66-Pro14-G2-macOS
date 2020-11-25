@@ -458,13 +458,13 @@
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
-			<true/>
+			<false/>
 			<key>NormalizeHeaders</key>
 			<false/>
 			<key>RebaseRegions</key>
 			<false/>
 			<key>ResetHwSig</key>
-			<true/>
+			<false/>
 			<key>ResetLogoStatus</key>
 			<false/>
 		</dict>
