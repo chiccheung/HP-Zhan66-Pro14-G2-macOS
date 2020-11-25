@@ -134,6 +134,22 @@
 				<key>Path</key>
 				<string>SSDT-RMCF-PS2Map-Zhan66G2.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-ALS0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-OCGPI0-GPHD.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
