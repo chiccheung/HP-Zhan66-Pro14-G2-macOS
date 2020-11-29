@@ -178,7 +178,33 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Return Zero in _STA of TPD0</string>
+				<string>_SB.PCI0.I2C1:TPD0 to TPDX</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>VFBEMAg=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>VFBEWAg=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>TPD0:_STA 0x0F to Zero</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
