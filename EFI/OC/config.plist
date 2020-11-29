@@ -1563,7 +1563,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02934403CDJH4R1F</string>
+			<string></string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1573,7 +1573,7 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02Z86YRJHCC</string>
+			<string></string>
 			<key>SystemUUID</key>
 			<string></string>
 		</dict>
@@ -1629,6 +1629,8 @@
 			<string>OpenCanopy.efi</string>
 			<string>CrScreenshotDxe.efi</string>
 			<string>HPFanReset.efi</string>
+			<string>Ps2KeyboardDxe.efi</string>
+			<string>Ps2MouseDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
