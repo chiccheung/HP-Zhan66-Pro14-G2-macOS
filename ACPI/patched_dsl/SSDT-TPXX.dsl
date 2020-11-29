@@ -7,19 +7,19 @@
 //
 DefinitionBlock ("", "SSDT", 2, "ACDT", "I2C-TPXX", 0x00000000)
 {
-    External (_SB_.GNUM, MethodObj)
-    External (_SB_.PCI0.HIDD, MethodObj)
+    External (_SB_.GNUM, MethodObj)    // 1 Arguments
+    External (_SB_.INUM, MethodObj)    // 1 Arguments
+    External (_SB_.PCI0.HIDD, MethodObj)    // 5 Arguments
     External (_SB_.PCI0.HIDG, IntObj)
     External (_SB_.PCI0.I2C1, DeviceObj)
-    External (_SB_.PCI0.TP7D, MethodObj)
+    External (_SB_.PCI0.I2C1.TPD0.SRXO, MethodObj)    // 2 Arguments
+    External (_SB_.PCI0.TP7D, MethodObj)    // 6 Arguments
     External (_SB_.PCI0.TP7G, IntObj)
-    External (_SB_.SHPO, MethodObj)
-    External (_SB_.SRXO, MethodObj)
-    External (_SB_.INUM, MethodObj)
+    External (_SB_.SHPO, MethodObj)    // 2 Arguments
     External (GPDI, FieldUnitObj)
     External (HPID, FieldUnitObj)
-    External (SDM1, FieldUnitObj)
     External (OSYS, FieldUnitObj)
+    External (SDM1, FieldUnitObj)
 
     Scope (_SB.PCI0.I2C1)
     {
@@ -271,3 +271,4 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "I2C-TPXX", 0x00000000)
         }
     }
 }
+

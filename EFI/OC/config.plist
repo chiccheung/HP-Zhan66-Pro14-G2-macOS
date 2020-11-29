@@ -100,7 +100,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-TPXX-Zhan66G2.aml</string>
+				<string>SSDT-TPXX.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
