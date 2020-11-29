@@ -35,9 +35,12 @@
 // In config ACPI, EC0: SBTC to XSBT
 // Find:     26534254 43
 // Replace:  26585342 54
+// In config ACPI, _TZ: GCGC to XGCG
+// Find:     47434743 0808
+// Replace:  58474347 0808
 //
 //
-DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
+DefinitionBlock ("", "SSDT", 2, "hack", "BATT", 0x00000000)
 {
     External (_SB_, DeviceObj)
     External (_SB_.BAT0, DeviceObj)
@@ -86,6 +89,8 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
     External (_SB_.PCI0.LPCB.EC0_.XBTI, MethodObj)    
     External (_SB_.PCI0.LPCB.EC0_.XGBT, MethodObj) 
     External (_SB_.PCI0.LPCB.EC0_.XSBT, MethodObj)
+    
+    
 
     Method (B1B2, 2, NotSerialized)
     {
@@ -109,8 +114,8 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
 
     Scope (_SB.PCI0.LPCB.EC0)
     {
-        OperationRegion (XCRM, EmbeddedControl, Zero, 0xFF)
-        Field (XCRM, ByteAcc, NoLock, Preserve)
+        OperationRegion (ECRM, EmbeddedControl, Zero, 0xFF)
+        Field (ECRM, ByteAcc, NoLock, Preserve)
         {
             Offset (0x89), 
             B1DC,   8, 
@@ -201,13 +206,13 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
                 {
                     Local0 = B1B2 (A1CP, A2CP)
                 }
-    
+
                 Release (ECMX)
                 Return (Local0)
             }
             Else
             {
-                Return (\_SB.PCI0.LPCB.EC0.XACW ())
+                Return (\_SB.PCI0.LPCB.EC0.XACW())
             }
         }
 
@@ -234,7 +239,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
             }
             Else
             {
-                Return (\_SB.PCI0.LPCB.EC0.XBAW ())
+                Return (\_SB.PCI0.LPCB.EC0.XBAW())
             }
         }
 
@@ -278,7 +283,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
                     Local0 = B1B2 (B1SN, B2SN)
                     Local1 = B1B2 (B1DA, B2DA)
                 }
-    
+
                 Release (ECMX)
                 Local2 = GBSS (Local0, Local1)
                 DerefOf (NBTI [Arg0]) [0x0A] = Local2
@@ -289,7 +294,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
             }
             Else
             {
-                Return (\_SB.PCI0.LPCB.EC0.XTIF (Arg0))
+                Return (\_SB.PCI0.LPCB.EC0.XTIF(Arg0))
             }
         }
 
@@ -350,7 +355,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
                     NDCB = Local7
                     Release (BTMX)
                 }
-    
+
                 DerefOf (NBST [Arg0]) [Zero] = Local0
                 If ((Local0 & One))
                 {
@@ -380,7 +385,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
             }
             Else
             {
-                Return (\_SB.PCI0.LPCB.EC0.XTST (Arg0, Arg1))
+                Return (\_SB.PCI0.LPCB.EC0.XTST(Arg0, Arg1))
             }
         }
 
@@ -402,7 +407,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
             }
             Else
             {
-                \_SB.PCI0.LPCB.EC0.XTLB ()
+                \_SB.PCI0.LPCB.EC0.XTLB()
             }
         }
 
@@ -549,7 +554,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
             }
             Else
             {
-                Return (\_SB.PCI0.LPCB.EC0.XBTI (Arg0))
+                Return (\_SB.PCI0.LPCB.EC0.XBTI(Arg0))
             }
         }
 
@@ -644,7 +649,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
             }
             Else
             {
-                Return (\_SB.PCI0.LPCB.EC0.XGBT ())
+                Return (\_SB.PCI0.LPCB.EC0.XGBT())
             }
         }
 
@@ -846,7 +851,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
             }
             Else
             {
-                Return (\_SB.PCI0.LPCB.EC0.XSBT (Arg0, Arg1, Arg2))
+                Return (\_SB.PCI0.LPCB.EC0.XSBT(Arg0, Arg1, Arg2))
             }
         }
     }
@@ -873,6 +878,5 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BATT", 0x00000000)
             }
         }
     }
+
 }
-
-
