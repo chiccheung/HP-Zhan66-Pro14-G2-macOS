@@ -114,8 +114,8 @@ DefinitionBlock ("", "SSDT", 2, "hack", "BATT", 0x00000000)
 
     Scope (_SB.PCI0.LPCB.EC0)
     {
-        OperationRegion (ECRM, EmbeddedControl, Zero, 0xFF)
-        Field (ECRM, ByteAcc, NoLock, Preserve)
+        OperationRegion (XCRM, EmbeddedControl, Zero, 0xFF)
+        Field (XCRM, ByteAcc, NoLock, Preserve)
         {
             Offset (0x89), 
             B1DC,   8, 
